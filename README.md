@@ -22,11 +22,17 @@ idea : gitflow , alias, flow pour d'autre feature
 #### Make github track your files 
 3. $ git init
 
-#### Set a new remote
-4. $ git remote add origin https://github.com/YOUR-GITHUB-USERNAME/PROJECT-NAME.git
-
-#### Verify new remote
+#### Set a new remote & the repository name PORJECT-NAME on your github account
+4. $ hub create
+#### Verify that their is a new remote
 5. $ git remote -v
+
+You should get someting like : 
+
+```
+origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (fetch)
+origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
+```
 
 6. $ git pull origin master
 
