@@ -34,6 +34,7 @@ origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (fetch)
 origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
 ```
 
+#### Check that the repo is empty : 
 6. $ git pull origin master
 
 7. $ git add .
@@ -47,6 +48,11 @@ origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
 #### Check it works ! 
 10. $ git status
 
+## Cloning a repository on your laptop : 
+mkdir ~/code/OWNER_GITHUB_USERNAME
+cd ~/code/OWNER_GITHUB_USERNAME
+git clone git@github.com:OWNER_GITHUB_USERNAME/PROJECT_NAME.git
+cd PROJECT_NAME
 ----------------------------------------------------------------------------------------------------------------------------
 
 
