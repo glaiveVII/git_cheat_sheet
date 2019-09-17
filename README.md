@@ -11,42 +11,42 @@ idea : gitflow , alias, flow pour d'autre feature
 
 #### Basic Github shortcut : 
 
-alias gs='git status'
-alias ga='git add'
-alias gaa='git add .'
-alias gc='git commit -m'
-alias gm='git push origin master'
-alias cr='clear'
+alias gs='git status' <br/>
+alias ga='git add' <br/>
+alias gaa='git add .' <br/>
+alias gc='git commit -m' <br/>
+alias gm='git push origin master' <br/>
+alias cr='clear' <br/>
 
 
 #### Shortcut for a framework : Rails shortcut 
 
-alias rs='rails s'
-alias dd='rails db:drop'
-alias dc='rails db:create'
-alias dm='rails db:migrate'
-alias ds='rails db:seed'
-alias da='rails db:drop db:create db:migrate db:seed'
-alias rc='rails c'
-alias rr='rails routes'
+alias rs='rails s' <br/>
+alias dd='rails db:drop' <br/>
+alias dc='rails db:create' <br/>
+alias dm='rails db:migrate' <br/>
+alias ds='rails db:seed' <br/>
+alias da='rails db:drop db:create db:migrate db:seed' <br/>
+alias rc='rails c' <br/>
+alias rr='rails routes' <br/>
 
 #### Github' shortcuts when collaborating : 
 
-alias gb = 'git branch'
-alias gco = 'git checkout'
-alias gcob = 'git checkout -b'
-alias gp='git push origin'
-alias gl='git pull origin'
-alias pom = 'git push origin master'
-alias puom = 'git pull origin master'
+alias gb = 'git branch' <br/>
+alias gco = 'git checkout' <br/>
+alias gcob = 'git checkout -b' <br/>
+alias gp='git push origin' <br/>
+alias gl='git pull origin' <br/>
+alias pom = 'git push origin master' <br/>
+alias puom = 'git pull origin master' <br/>
 
 #### Make your life easier, for example : 
 
 ###### Open slack
-alias slk="open -a 'slack'"
+alias slk="open -a 'slack'" <br/>
 
 ###### Open chrome
-alias crm="open -a 'Google Chrome'"
+alias crm="open -a 'Google Chrome'" <br/>
 
 
 
