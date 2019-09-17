@@ -9,6 +9,50 @@ idea : gitflow , alias, flow pour d'autre feature
 
 ## Aliases : game changer, trust me 
 
+#### Basic Github shortcut : 
+
+alias gs='git status'
+alias ga='git add'
+alias gaa='git add .'
+alias gc='git commit -m'
+alias gm='git push origin master'
+alias cr='clear'
+
+
+#### Shortcut for a framework : Rails shortcut 
+
+alias rs='rails s'
+alias dd='rails db:drop'
+alias dc='rails db:create'
+alias dm='rails db:migrate'
+alias ds='rails db:seed'
+alias da='rails db:drop db:create db:migrate db:seed'
+alias rc='rails c'
+alias rr='rails routes'
+
+#### Github' shortcuts when collaborating : 
+
+alias gb = 'git branch'
+alias gco = 'git checkout'
+alias gcob = 'git checkout -b'
+alias gp='git push origin'
+alias gl='git pull origin'
+alias pom = 'git push origin master'
+alias puom = 'git pull origin master'
+
+#### Make your life easier, for example : 
+
+###### Open slack
+alias slk="open -a 'slack'"
+
+###### Open chrome
+alias crm="open -a 'Google Chrome'"
+
+
+
+
+
+
 ----------------------------------------------------------------------------------------------------------------------------
 
 ## Initialize a repository from your terminal : 
@@ -49,10 +93,12 @@ origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
 10. $ git status
 
 ## Cloning a repository on your laptop : 
-mkdir ~/code/OWNER_GITHUB_USERNAME
-cd ~/code/OWNER_GITHUB_USERNAME
-git clone git@github.com:OWNER_GITHUB_USERNAME/PROJECT_NAME.git
-cd PROJECT_NAME
+
+1. $ mkdir ~/code/OWNER_GITHUB_USERNAME
+2. $ cd ~/code/OWNER_GITHUB_USERNAME
+3. $ git clone git@github.com:OWNER_GITHUB_USERNAME/PROJECT_NAME.git
+4. $ cd PROJECT_NAME
+
 ----------------------------------------------------------------------------------------------------------------------------
 
 
