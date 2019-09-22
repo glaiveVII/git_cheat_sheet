@@ -101,4 +101,10 @@ origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
 
 ----------------------------------------------------------------------------------------------------------------------------
 
+## Code Changes
 
+1. Fork it ( https://github.com/PelDoingCode/git_cheat_sheet/fork )
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature') - try to include tests
+4. Push to the branch (git push origin my-new-feature)
+5. Create a new Pull Request
