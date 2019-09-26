@@ -11,43 +11,47 @@ idea : gitflow , alias, flow pour d'autre feature
 
 #### Basic Github shortcut : 
 
-alias gs='git status' <br/>
-alias ga='git add' <br/>
-alias gaa='git add .' <br/>
-alias gc='git commit -m' <br/>
-alias gm='git push origin master' <br/>
-alias cr='clear' <br/>
+<pre>
+    alias gs='git status' <br/>
+    alias ga='git add' <br/>
+    alias gaa='git add .' <br/>
+    alias gc='git commit -m' <br/>
+    alias gm='git push origin master' <br/>
+    alias cr='clear' <br/>
+</pre>
 
 
 #### Shortcut for a framework : Rails shortcut 
-
-alias rs='rails s' <br/>
-alias dd='rails db:drop' <br/>
-alias dc='rails db:create' <br/>
-alias dm='rails db:migrate' <br/>
-alias ds='rails db:seed' <br/>
-alias da='rails db:drop db:create db:migrate db:seed' <br/>
-alias rc='rails c' <br/>
-alias rr='rails routes' <br/>
-
+<pre>
+    alias rs='rails s' <br/>
+    alias dd='rails db:drop' <br/>
+    alias dc='rails db:create' <br/>
+    alias dm='rails db:migrate' <br/>
+    alias ds='rails db:seed' <br/>
+    alias da='rails db:drop db:create db:migrate db:seed' <br/>
+    alias rc='rails c' <br/>
+    alias rr='rails routes' <br/>
+</pre>
 #### Github' shortcuts when collaborating : 
-
-alias gb = 'git branch' <br/>
-alias gco = 'git checkout' <br/>
-alias gcob = 'git checkout -b' <br/>
-alias gp='git push origin' <br/>
-alias gl='git pull origin' <br/>
-alias pom = 'git push origin master' <br/>
-alias puom = 'git pull origin master' <br/>
-
+<pre>
+    alias gb = 'git branch' <br/>
+    alias gco = 'git checkout' <br/>
+    alias gcob = 'git checkout -b' <br/>
+    alias gp='git push origin' <br/>
+    alias gl='git pull origin' <br/>
+    alias pom = 'git push origin master' <br/>
+    alias puom = 'git pull origin master' <br/>
+</pre>
 #### Make your life easier, for example : 
 
 ###### Open slack
-alias slk="open -a 'slack'" <br/>
-
+<pre>
+    alias slk="open -a 'slack'" <br/>
+</pre>
 ###### Open chrome
-alias crm="open -a 'Google Chrome'" <br/>
-
+<pre>
+    alias crm="open -a 'Google Chrome'" <br/>
+</pre>
 
 
 
