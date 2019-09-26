@@ -7,7 +7,7 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 idea : gitflow , alias, flow pour d'autre feature 
 
 
-## Aliases : game changer, trust me 
+## Aliases : game changer, trust me !
 
 #### Basic Github shortcut : 
 
@@ -44,35 +44,28 @@ idea : gitflow , alias, flow pour d'autre feature
 </pre>
 #### Make your life easier, for example : 
 
-###### Open slack
+##### Open slack :
 <pre>
-    alias slk="open -a 'slack'" <br/>
-</pre>
-###### Open chrome
+    alias slk="open -a 'slack'" <br/> </pre>
+##### Open chrome :
 <pre>
-    alias crm="open -a 'Google Chrome'" <br/>
-</pre>
-
-
-
-
+    alias crm="open -a 'Google Chrome'" <br/> </pre>
 
 ----------------------------------------------------------------------------------------------------------------------------
 
 ## Initialize a repository from your terminal : 
 
 #### Be on your github file on your desktop : 
-
 1. $ mkdir PROJECT-NAME
 
 2. $ cd PROJECT-NAME
 
-#### Make github track your files 
+#### Make github track your files :
 3. $ git init
 
-#### Set a new remote & the repository name PORJECT-NAME on your github account
+#### Set a new remote & the repository name PORJECT-NAME on your github account :
 4. $ hub create
-#### Verify that their is a new remote
+#### Verify that their is a new remote :
 5. $ git remote -v
 
 You should get someting like : 
@@ -105,7 +98,7 @@ origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-## Code Changes
+## If you want to improve this repository, follow these steps (work with all repository you don't own but you want to change)  :
 
 1. Fork it ( https://github.com/PelDoingCode/git_cheat_sheet/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
