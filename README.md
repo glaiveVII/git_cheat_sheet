@@ -6,6 +6,15 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 
 idea : gitflow , alias, flow pour d'autre feature 
 
+## Usefull commands : 
+
+    $ hub browse : to go to the GitHub web interface
+
+## When working with other people : Pull request : 
+
+    1. Never pull on the MASTER BRANCH 
+    2. Don’t merge yourself unless 1000% sure :  Lead programmer closes your PR (merges your changes to remote master). But you’re not done yet!
+
 
 ## Aliases : game changer, trust me !
 
