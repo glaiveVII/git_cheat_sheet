@@ -6,6 +6,13 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 
 idea : gitflow , alias, flow pour d'autre feature 
 
+## GITHUB WORKFLOW :heart:
+
+<p align="center">  
+  <img src="github-flow.png" alt="drawing" width="1000" align="center"/>
+</p>
+
+
 ## Usefull commands : 
 
     $ hub browse : to go to the GitHub web interface
