@@ -130,3 +130,6 @@ If you like this project, feel free to donate:
 * Bitcoin: 
 * Ethereum: 
 * Monero: 
+
+## ⭐️ Show your support
+Please ⭐️ this repository if this project helped you, don't hesitate to reach me on Linkedin !
