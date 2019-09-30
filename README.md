@@ -121,3 +121,12 @@ origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
 3. Commit your changes (git commit -am 'Add some feature') - try to include tests
 4. Push to the branch (git push origin my-new-feature)
 5. Create a new Pull Request
+
+----------------------------------------------------------------------------------------------------------------------------
+
+## 🍺 Buy me a beer 
+If you like this project, feel free to donate:
+* PayPal: https://www.paypal.me/
+* Bitcoin: 
+* Ethereum: 
+* Monero: 
