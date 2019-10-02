@@ -15,7 +15,31 @@ idea : gitflow , alias, flow pour d'autre feature
 
 ## Usefull commands : 
 
-    $ hub browse : to go to the GitHub web interface
+  ##### To go to the GitHub web interface :
+  ```
+    $ hub browse
+  ```
+    
+  ##### To clean and make the code in your terminal go up :
+  ```
+    $ clear 
+  ```
+   ##### To clear you terminal on MacOs :
+   ```
+    cmd + k 
+   ```
+   ##### To access the history of commands you typed :
+   ```
+    $ history
+   ```
+   ##### To kill something executing in your terminal :
+   ```
+    control + c
+   ```
+
+
+
+  
 
 ## When working with other people : Pull request : 
 
