@@ -20,11 +20,11 @@ idea : gitflow , alias, flow pour d'autre feature
     $ hub browse
   ```
     
-  ##### To clean and make the code in your terminal go up :
+  ##### # Clear the command line window :
   ```
     $ clear 
   ```
-   ##### To clear you terminal on MacOs :
+   ##### To clear you terminal window on MacOs :
    ```
     cmd + k 
    ```
