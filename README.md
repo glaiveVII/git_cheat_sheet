@@ -147,6 +147,13 @@ origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
 5. Create a new Pull Request
 
 ----------------------------------------------------------------------------------------------------------------------------
+## Never forget : in case of fire :fire:
+
+  1. $ git commit
+  2. $ git push
+  3. LEAVE BUILDING
+
+----------------------------------------------------------------------------------------------------------------------------
 
 ## 🍺 Buy me a beer 
 If you like this project, feel free to donate:
