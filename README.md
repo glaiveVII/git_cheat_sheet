@@ -137,6 +137,23 @@ origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
 4. $ cd PROJECT_NAME
 
 ----------------------------------------------------------------------------------------------------------------------------
+## Create a GitHub Pull Request to improve repositories you find on github : 
+
+1. Fork any open source GitHub repo you want 
+2. Clone that repo in your PC :
+```
+  git clone https://github.com/YOUR-GITHUB-NAME/NAME-REPO-YOUR-FORKED
+```
+3. Make changes and commit/push these changes from your terminal :
+```
+  git add .
+  git commit -m " My change for this repo"
+  git push
+```
+4. Go to your fork, click open `Pull Request` link and create a PR : 
+  Add a relevant description to comment your code 👌!
+
+----------------------------------------------------------------------------------------------------------------------------
 
 ## If you want to improve this repository, follow these steps (work with all repository you don't own but you want to change)  :
 
