@@ -171,6 +171,23 @@ origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
   3. LEAVE BUILDING
 
 ----------------------------------------------------------------------------------------------------------------------------
+## :warning: :nuke: FORCE PUSH & PULL :nuke: :warning:
+#### Force to push in case (bad practice) : :nuke: 
+```
+ga .
+gc 'force to push in case of emergency'
+git push origin master -f 
+```
+ ps : you can push on an other branch than master also 
+ 
+ #### Force to pull to force update what you have in local (bad practice) : :nuke: 
+ ```
+ git fetch --all
+ git reset --hard origin/master
+ ```
+  ps : you will force what you have on master to be on local
+
+----------------------------------------------------------------------------------------------------------------------------
 
 ## 🍺 Buy me a beer 
 If you like this project, feel free to donate:
