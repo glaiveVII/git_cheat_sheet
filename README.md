@@ -192,9 +192,7 @@ git push origin master -f
 ## 🍺 Buy me a beer 
 If you like this project, feel free to donate:
 * PayPal: https://www.paypal.me/
-* Bitcoin: 
-* Ethereum: 
-* Monero: 
+* Bitcoin: 1AyaDkr51A3YzwV7sG5yfC5soD8F7D96Pv
 
 ## ⭐️ Show your support
 Please ⭐️ this repository if this project helped you, don't hesitate to reach me on Linkedin !
