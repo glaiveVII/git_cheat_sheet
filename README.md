@@ -136,6 +136,18 @@ origin	git@github.com:GITHUB_USERNAME/PROJECT-NAME.git (push)
 3. $ git clone git@github.com:OWNER_GITHUB_USERNAME/PROJECT_NAME.git
 4. $ cd PROJECT_NAME
 
+## Changes to tracked files:
+
+$ git diff
+
+## See changes/difference of a specific file:
+
+$ git diff <file>
+  
+## Show all commits, starting with newest (it'll show the hash, author information, date of commit and title of the commit):
+
+$ git log
+
 ----------------------------------------------------------------------------------------------------------------------------
 ## Create a GitHub Pull Request to improve repositories you find on github : 
 
