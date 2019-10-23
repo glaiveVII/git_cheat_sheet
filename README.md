@@ -73,15 +73,89 @@ idea : gitflow , alias, flow pour d'autre feature
     alias rr='rails routes' <br/>
 </pre>
 #### Github' shortcuts when collaborating : 
-<pre>
-    alias gb = 'git branch' <br/>
-    alias gco = 'git checkout' <br/>
-    alias gcob = 'git checkout -b' <br/>
-    alias gp='git push origin' <br/>
-    alias gl='git pull origin' <br/>
-    alias pom = 'git push origin master' <br/>
-    alias puom = 'git pull origin master' <br/>
-</pre>
+
+#### ---------- Simple aliases -----------
+```
+  alias gb = 'git branch' 
+  alias gco = 'git checkout' 
+  alias gcob = 'git checkout -b' 
+  
+  alias gcom='git checkout master'
+  alias gd='git diff'
+  alias gi='git init'
+  alias glg='git log --graph --oneline --decorate --all'
+
+  alias gp='git push origin' 
+  alias gl='git pull origin' 
+  alias pom = 'git push origin master' 
+  alias puom = 'git pull origin master' 
+```
+#### ---------- Advanced aliases -----------
+```
+alias gpo='git push origin HEAD'
+alias gbr='git branch -m'
+alias ga='git add'
+alias gaa='git add .'
+alias gaaa='git add --all'
+alias gau='git add --update'
+alias gb='git branch'
+alias gbd='git branch -D'
+alias gc='git commit'
+alias gcm='git commit --message'
+alias gcf='git commit --fixup'
+alias gco='git checkout'
+alias gcam='git commit -am'
+alias gt='git checkout -'
+alias gcob='git checkout -b'
+alias gcom='git checkout master'
+alias gcos='git checkout staging'
+alias gcod='git checkout develop'
+alias gd='git diff'
+alias gda='git diff HEAD'
+alias gi='git init'
+alias glg='git log --graph --oneline --decorate --all'
+alias gld='git log --pretty=format:"%h %ad %s” --date=short --all"'
+alias gm='git merge'
+alias gma='git merge --abort'
+alias gmc='git merge --continue'
+alias gp='git pull'
+alias gpr='git pull --rebase'
+alias gr='git rebase'
+alias gs='git status'
+alias gss='git status --short'
+alias gst='git stash'
+alias gsta='git stash apply'
+alias gstd='git stash drop'
+alias gstl='git stash list'
+alias gstp='git stash pop'
+alias gsts='git stash save'
+alias grh='git reset --hard HEAD'
+alias gls="git for-each-ref --sort=-committerdate refs/heads/ --format='%(authordate:short) %(color:red)%(objectname:short) %(color:yellow)%(refname:short)%(color:reset) (%(color:green)%(committerdate:relative)%(color:reset))'"
+
+alias ytbr="yarn tag-build-ready"
+alias yd='yarn dev'
+alias yyd='yarn && yarn dev'
+alias ys='yarn start'
+alias yt='yarn testn'
+alias yst='yarn staticCheck'
+alias ybys='yarn build && yarn start'
+alias yf='yarn flow'
+
+alias np='npm publish'
+alias nptb='npm publish --tag beta'
+```
+#### ---------- Aliases to avoid being murdered -----------
+```
+aim idea here is to find a solution in order 
+to block git push origin master or the same with -f 
+i.e  to protect from all dangerous commands
+
+or how to run command in order to block kind of command 
+and returning a string or adding a [Y/N] or password ???
+```
+
+
+  
 #### Make your life easier, for example : 
 
 ##### Open slack :
