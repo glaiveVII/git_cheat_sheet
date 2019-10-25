@@ -12,6 +12,22 @@ idea : gitflow , alias, flow pour d'autre feature
   <img src="github-flow.png" alt="drawing" width="1000" align="center"/>
 </p>
 
+### Flow detailled : 
+- on master branch
+- git checkout -b new-branch
+- (code the new feature)
+- git add .
+- git commit -m 'message'
+- git push origin new-branch
+- go on github
+- create pull request
+- ask your teammates to review the code
+- once everyone is happy merge new-branch with master
+- git checkout master
+- git pull origin master
+- git sweep
+- repeat
+
 
 ## Usefull commands : 
 
