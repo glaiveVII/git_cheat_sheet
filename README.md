@@ -6,6 +6,7 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 https://guides.github.com/
 
 idea : gitflow , alias, flow pour d'autre feature 
+https://guides.github.com/
 
 ## GITHUB WORKFLOW :heart: : branch -> commit -> pull request -> merge
 
