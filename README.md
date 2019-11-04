@@ -34,6 +34,7 @@ https://guides.github.com/
 - it's far easier to debug github issues when you are in a branch and not on the master so : 
 - never commit on master (always use a branch to be sure)
 - never push on master otherwise your techlead will kill you
+- use branches : it's a place where you can do everything you want ! your play around, as many commit as possible etccc !
 
 ## Usefull commands : 
 
