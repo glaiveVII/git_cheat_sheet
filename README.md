@@ -3,10 +3,11 @@
 https://github.com/taniarascia/git
 https://gist.github.com/jedmao/5053440
 https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+https://guides.github.com/
 
 idea : gitflow , alias, flow pour d'autre feature 
 
-## GITHUB WORKFLOW :heart:
+## GITHUB WORKFLOW :heart: : branch -> commit -> pull request -> merge
 
 <p align="center">  
   <img src="github-flow.png" alt="drawing" width="1000" align="center"/>
@@ -274,6 +275,20 @@ $ git log
 
 ----------------------------------------------------------------------------------------------------------------------------
 ## :warning: :bomb: FORCE PUSH & PULL :bomb: :warning:
+
+#### Want to remove commit you did ? mistake or wrong message ? directly from command lines !
+1/ Do git reset HEAD^ for as many commits you want to undo, it will keep your changes and your actual state of your files, just flushing the commits of them.
+</br>
+2/ Once the commits are undone, you can think about how to commit your files in a better way, e.g.: removing/ignoring the huge files and then adding what you want and then committing again. Or use Git LFS to track those huge files.
+</br>
+Usefull links : 
+```
+https://stackoverflow.com/questions/20002557/how-to-remove-a-too-large-file-in-a-commit-when-my-branch-is-ahead-of-master-by
+https://stackoverflow.com/questions/9529078/how-do-i-use-git-reset-hard-head-to-revert-to-a-previous-commit#targetText=HEAD%20points%20to%20your%20current,log%20or%20any%20history%20browser
+https://stackoverflow.com/questions/20002557/how-to-remove-a-too-large-file-in-a-commit-when-my-branch-is-ahead-of-master-by
+https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git
+```
+
 #### Force to push in case (bad practice) : :bomb: 
 ```
 ga .
