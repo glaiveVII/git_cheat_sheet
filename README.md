@@ -30,6 +30,10 @@ https://guides.github.com/
 - git sweep
 - repeat
 
+### Flow advices : to stay alive in a team ! 
+- it's far easier to debug github issues when you are in a branch and not on the master so : 
+- never commit on master (always use a branch to be sure)
+- never push on master otherwise your techlead will kill you
 
 ## Usefull commands : 
 
