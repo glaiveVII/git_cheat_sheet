@@ -296,6 +296,11 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 ```
 
 #### Force to push in case (bad practice) : :bomb: 
+- :warning: before doing a "git push origin master" always PULL ! run :
+```
+git pull origin master
+```
+Otherwise you will outwrite the master !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ```
 ga .
 gc 'force to push in case of emergency'
