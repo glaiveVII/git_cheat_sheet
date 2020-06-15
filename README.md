@@ -278,6 +278,13 @@ $ git log
   1. $ git commit
   2. $ git push
   3. LEAVE BUILDING
+  
+----------------------------------------------------------------------------------------------------------------------------
+## Tips : 
+
+- In the directory you cloned the repository, run git fetch --all
+- Use git checkout BRANCH_NAME -f to jump into a given branch. The -f will force overwriting your local changes
+
 
 ----------------------------------------------------------------------------------------------------------------------------
 ## :warning: :bomb: FORCE PUSH & PULL :bomb: :warning:
