@@ -17,6 +17,9 @@ https://guides.github.com/
 ### Flow detailled : 
 - on master branch
 - git checkout -b new-branch
+
+or git branch XXX # create branch and then git checkout XXX
+
 - (code the new feature)
 - git add .
 - git commit -m 'message'
