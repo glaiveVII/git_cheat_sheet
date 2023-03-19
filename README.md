@@ -1,5 +1,10 @@
 # Github cheat sheet !!!!!
 
+### Rebase : 
+git reset --hard origin/master
+
+
+-----
 https://github.com/taniarascia/git
 https://gist.github.com/jedmao/5053440
 https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
