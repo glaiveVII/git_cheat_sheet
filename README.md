@@ -1,7 +1,7 @@
 # Github cheat sheet !!!!!
 
-### Rebase : 
-git reset --hard origin/master
+### Rebase : don't forget to git add . and git commit -m 'commit to be able to rebase' before reset main (in case you haven't worked in a branch before)
+git reset --hard main
 
 
 -----
